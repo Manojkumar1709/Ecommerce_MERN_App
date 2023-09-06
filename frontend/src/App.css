@@ -1,0 +1,30 @@
+#box2 {
+    position: fixed;
+    margin-left: 140px;
+    margin-right: 150px;
+    margin-top: 20px;
+    margin-bottom: 450px;
+    justify-content: center;
+    align-items: center;
+}
+#box1 div {
+    position: relative;
+    position: sticky;
+}
+
+#box {
+  position: relative;
+  animation-name: manoj;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes manoj {
+ from{
+  width: 60px;
+ }
+ to{
+  width: 200px;
+ }
+}
